@@ -4,7 +4,7 @@
 # ----
 # Google Ad & AWS Services
 # 
-googleadservices.com
+/googlead/
 awstrack.me
 adition.com
 api.segment.io
