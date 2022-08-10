@@ -9,6 +9,10 @@ awstrack.me
 adition.com
 api.segment.io
 # ----
+# WhatsApp
+#
+whatsapp.net
+# ----
 # Aliexpress
 # 
 aliexpress.com
