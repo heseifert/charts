@@ -1,0 +1,23 @@
+#
+# Custom Whitelist for used services
+#
+# ----
+# Google Ad & AWS Services
+# 
+googleadservices.com
+awstrack.me
+adition.com
+api.segment.io
+# ----
+# Aliexpress
+# 
+aliexpress.com
+s.click.aliexpress.com
+# ----
+# Microsoft Services
+microsoft.com
+# ----
+# Homebrew Services
+#
+/titz/
+teknik.app
