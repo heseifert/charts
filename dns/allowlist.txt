@@ -12,6 +12,7 @@ api.segment.io
 # WhatsApp
 #
 whatsapp.net
+*.whatsapp.net
 # ----
 # Aliexpress
 # 
