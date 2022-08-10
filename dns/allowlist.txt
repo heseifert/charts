@@ -14,9 +14,6 @@ api.segment.io
 aliexpress.com
 s.click.aliexpress.com
 # ----
-# Microsoft Services
-microsoft.com
-# ----
 # Homebrew Services
 #
 /titz/
