@@ -1,6 +1,6 @@
 # Whitelist for DNS Blocker
-doh.dns.apple.com
-doh.dns.apple.com.v.aaplimg.com
-nordvpn.com
-nordcdn.com
-wireguard.com
+||doh.dns.apple.com^
+||doh.dns.apple.com.v.aaplimg.com^
+||nordvpn.com^
+||nordcdn.com^
+||wireguard.com^
