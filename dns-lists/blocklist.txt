@@ -1,2 +1,1 @@
-# Blocklist for DNS Blocker
-||reports.protonmail.ch^
+reports.protonmail.ch
