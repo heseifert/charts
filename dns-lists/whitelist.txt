@@ -4,3 +4,4 @@
 ||nordvpn.com^
 ||nordcdn.com^
 ||wireguard.com^
+||local^
