@@ -5,3 +5,4 @@
 ||nordcdn.com^
 ||wireguard.com^
 ||local^
+||cloudflare-dns.com^
