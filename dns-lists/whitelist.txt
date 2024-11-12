@@ -7,6 +7,6 @@
 ## Cloudflare DNS ##
 ||cloudflare-dns.com^
 ## NordVPN ##
-||auth.nordaccount.com^
+||nordaccount.com^
 ||nordvpn.com^
 ||nordcdn.com^
