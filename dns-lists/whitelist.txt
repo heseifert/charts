@@ -10,3 +10,4 @@
 ||nordaccount.com^
 ||nordvpn.com^
 ||nordcdn.com^
+||spdns.org^
