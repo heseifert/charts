@@ -11,3 +11,15 @@ nordaccount.com
 nordvpn.com
 nordcdn.com
 spdns.org
+# Merged from https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
+*.abs.hls.ttvnw.net
+*.github.io
+camo.githubusercontent.com
+cdn.adguard.info
+plex.tv
+proton.me
+raindrop.io
+rdl.ink
+static.gumtree.com.au.peakhour.zone
+streetwriters.co
+youtu.be
