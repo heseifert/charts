@@ -1,0 +1,13 @@
+# Whitelist for DNS Blocker #
+doh.dns.apple.com
+doh.dns.apple.com.v.aaplimg.com
+local
+# Wireguard
+wireguard.com
+## Cloudflare DNS ##
+cloudflare-dns.com
+## NordVPN ##
+nordaccount.com
+nordvpn.com
+nordcdn.com
+spdns.org
