@@ -2,27 +2,41 @@
 doh.dns.apple.com
 doh.dns.apple.com.v.aaplimg.com
 local
+
 # Wireguard
 wireguard.com
+
 ## Cloudflare DNS ##
 cloudflare-dns.com
+
 ## NordVPN ##
 nordaccount.com
 nordvpn.com
 nordcdn.com
+
+# DynDNS
+ipv64.net
 spdns.org
+
+#Social Media
+youtu.be
+xz.fbcdn.net
+
 #GoogleAd
 googleadservices.com
 *.googleadservices.com
 # Merged from https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
 *.abs.hls.ttvnw.net
+
+# Github
 *.github.io
 camo.githubusercontent.com
 cdn.adguard.info
+
+#Misc
 plex.tv
 proton.me
 raindrop.io
 rdl.ink
 static.gumtree.com.au.peakhour.zone
 streetwriters.co
-youtu.be
