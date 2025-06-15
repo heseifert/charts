@@ -11,3 +11,5 @@
 ||nordvpn.com^
 ||nordcdn.com^
 ||spdns.org^
+||ipv64.net^
+||fbcdn.net^
