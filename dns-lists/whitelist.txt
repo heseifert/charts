@@ -1,15 +1,40 @@
 # Whitelist for DNS Blocker #
-||doh.dns.apple.com^
-||doh.dns.apple.com.v.aaplimg.com^
-||local^
+doh.dns.apple.com
+doh.dns.apple.com.v.aaplimg.com
+local
+
 # Wireguard
-||wireguard.com^
+wireguard.com
+
 ## Cloudflare DNS ##
-||cloudflare-dns.com^
+cloudflare-dns.com
+
 ## NordVPN ##
-||nordaccount.com^
-||nordvpn.com^
-||nordcdn.com^
-||spdns.org^
-||ipv64.net^
-||fbcdn.net^
+nordaccount.com
+nordvpn.com
+nordcdn.com
+
+# DynDNS
+ipv64.net
+spdns.org
+
+#Social Media & Streaming
+youtu.be
+xz.fbcdn.net
+ttvnw.net
+
+#GoogleAd
+googleadservices.com
+
+# Github
+github.io
+camo.githubusercontent.com
+cdn.adguard.info
+
+#Misc
+plex.tv
+proton.me
+raindrop.io
+rdl.ink
+static.gumtree.com.au.peakhour.zone
+streetwriters.co
