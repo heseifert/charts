@@ -24,12 +24,11 @@ xz.fbcdn.net
 
 #GoogleAd
 googleadservices.com
-*.googleadservices.com
 # Merged from https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
-*.abs.hls.ttvnw.net
+abs.hls.ttvnw.net
 
 # Github
-*.github.io
+github.io
 camo.githubusercontent.com
 cdn.adguard.info
 
