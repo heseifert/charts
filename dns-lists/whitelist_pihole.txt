@@ -22,6 +22,10 @@ spdns.org
 youtu.be
 xz.fbcdn.net
 
+# Pampers & Basarlino
+api.segment.io
+braze.eu
+
 #GoogleAd
 googleadservices.com
 # Merged from https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
