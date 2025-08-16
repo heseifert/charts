@@ -26,6 +26,9 @@ xz.fbcdn.net
 api.segment.io
 braze.eu
 
+#Streaming
+logs.netflix.com
+
 #GoogleAd
 googleadservices.com
 # Merged from https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
@@ -44,3 +47,6 @@ rdl.ink
 static.gumtree.com.au.peakhour.zone
 streetwriters.co
 ws.batch.com
+app-measurement.com
+beacons.gcp.gvt2.com
+beacons.gvt2.com	
