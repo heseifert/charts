@@ -19,6 +19,8 @@ on:
           - info
         required: true
 
+permissions:
+  contents: write
 
 jobs:
   google-v6:
