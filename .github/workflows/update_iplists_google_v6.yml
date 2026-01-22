@@ -1,0 +1,27 @@
+name: update_iplists_google_v6
+
+on:
+  schedule:
+    - cron: "30 08 * * *" # 08:30 UTC
+
+jobs:
+  google-v6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python -m pip install --upgrade pip
+          pip install -r mikrotik-lists/requirements.txt
+      - run: python mikrotik-lists/google/google_ips.py --ipv6
+      - run: |
+          git config --local user.email "noreply@github.actions.bot"
+          git config --local user.name "GitHub Actions"
+          git add mikrotik-lists/google/google-ips-v6.rsc
+          git diff --cached --exit-code || git commit -m "Google IPv6 lists updated"
+      - uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
