@@ -3,6 +3,22 @@ name: update_iplists_cloudflare_v6
 on:
   schedule:
     - cron: "30 07 * * *" # 07:30 UTC
+  workflow_dispatch:
+    inputs:
+      dryRun:
+        description: Dry Run
+        type: boolean
+        default: false
+        required: true
+      logLevel:
+        description: Log Level
+        type: choice
+        default: debug
+        options:
+          - debug
+          - info
+        required: true
+
 
 jobs:
   cloudflare-v6:
