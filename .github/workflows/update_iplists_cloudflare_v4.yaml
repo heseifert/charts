@@ -35,6 +35,9 @@ jobs:
           pip install -r mikrotik-lists/requirements.txt
       - run: python mikrotik-lists/cloudflare/cloudflare_ips.py --ipv4
       - run: |
+          #!/bin/bash
+          NOW=$(TZ="Europe/Berlin" date +"%m-%d-%Y %H:%M:%S %Z")
+
           git config --local user.email "noreply@github.actions.bot"
           git config --local user.name "GitHub Actions"
           git add mikrotik-lists/cloudflare/cloudflare-ips-v4.rsc

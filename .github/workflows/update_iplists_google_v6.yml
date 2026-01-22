@@ -35,6 +35,9 @@ jobs:
           pip install -r mikrotik-lists/requirements.txt
       - run: python mikrotik-lists/google/google_ips.py --ipv6
       - run: |
+          #!/bin/bash
+          NOW=$(TZ="Europe/Berlin" date +"%m-%d-%Y %H:%M:%S %Z")
+          
           git config --local user.email "noreply@github.actions.bot"
           git config --local user.name "GitHub Actions"
           git add mikrotik-lists/google/google-ips-v6.rsc
