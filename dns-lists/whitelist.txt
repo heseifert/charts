@@ -39,6 +39,9 @@ github.io
 camo.githubusercontent.com
 cdn.adguard.info
 
+#MyDealz
+mydealz.digidip.net
+
 #Misc
 plex.tv
 proton.me
