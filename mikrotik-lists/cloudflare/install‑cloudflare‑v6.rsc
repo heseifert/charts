@@ -10,6 +10,5 @@
   :log info "Import Cloudflare IPv6 finish";
 }
 
-
 /system scheduler
 add name="cf-v6-dl" start-time=startup+10m interval=1d on-event=cloudflare-v6

@@ -1,5 +1,5 @@
 # Google IPv4 installer
-/system script add name="google-v4-download" source={
+/system script add name="google-v4" source={
   :log info "Download Google IPv4 List";
   /tool fetch url="https://raw.githubusercontent.com/heseifert/charts/refs/heads/main/mikrotik-lists/google/google-ips-v4.rsc" mode=https dst-path=google-ips-v4.rsc;
   :log info "Remove current Google IPv4 List";
