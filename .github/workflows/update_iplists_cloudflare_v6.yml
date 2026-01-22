@@ -38,7 +38,7 @@ jobs:
           git config --local user.email "noreply@github.actions.bot"
           git config --local user.name "GitHub Actions"
           git add mikrotik-lists/cloudflare/cloudflare-ips-v6.rsc
-          git diff --cached --exit-code || git commit -m "Cloudflare IPv6 lists updated"
+          git diff --cached --exit-code || git commit -m "Run automations and generate fresh Cloudflare IPv6 list - $NOW"
       - uses: ad-m/github-push-action@v1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
