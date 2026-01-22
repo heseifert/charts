@@ -1,7 +1,7 @@
 # Cloudflare IPv6 installer
 /system script add name="cloudflare-v6-download" source={
   :log info "Downloading Cloudflare IPv6 List";
-  /tool fetch url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/mikrotik-lists/cloudflare/cloudflare-ips-v6.rsc" mode=https dst-path=cloudflare-ips-v6.rsc
+  /tool fetch url="https://raw.githubusercontent.com/heseifert/main/mikrotik-lists/cloudflare/cloudflare-ips-v6.rsc" mode=https dst-path=cloudflare-ips-v6.rsc
 }
 
 /system script add name="cloudflare-v6-replace" source={

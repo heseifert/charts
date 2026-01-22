@@ -1,7 +1,7 @@
 # Google IPv6 installer
 /system script add name="google-v6-download" source={
   :log info "Downloading Google IPv6 List";
-  /tool fetch url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/mikrotik-lists/google/google-ips-v6.rsc" mode=https dst-path=google-ips-v6.rsc
+  /tool fetch url="https://raw.githubusercontent.com/heseifert/main/mikrotik-lists/google/google-ips-v6.rsc" mode=https dst-path=google-ips-v6.rsc
 }
 
 /system script add name="google-v6-replace" source={

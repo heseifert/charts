@@ -1,7 +1,7 @@
 # Cloudflare IPv4 installer
 /system script add name="cloudflare-v4-download" source={
   :log info "Downloading Cloudflare IPv4 List";
-  /tool fetch url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/mikrotik-lists/cloudflare/cloudflare-ips-v4.rsc" mode=https dst-path=cloudflare-ips-v4.rsc
+  /tool fetch url="https://raw.githubusercontent.com/heseifert/main/mikrotik-lists/cloudflare/cloudflare-ips-v4.rsc" mode=https dst-path=cloudflare-ips-v4.rsc
 }
 
 /system script add name="cloudflare-v4-replace" source={
